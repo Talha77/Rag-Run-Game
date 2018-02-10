@@ -1,0 +1,17 @@
+﻿Build started 5/1/2015 9:16:10 AM.
+     1>Project "C:\Users\Talha\Desktop\A_RAG RUN GAME\move\move.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Rag Run Game.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         move.vcxproj -> C:\Users\Talha\Desktop\A_RAG RUN GAME\Debug\Rag Run Game.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Rag Run Game.unsuccessfulbuild".
+         Touching "Debug\Rag Run Game.lastbuildstate".
+     1>Done Building Project "C:\Users\Talha\Desktop\A_RAG RUN GAME\move\move.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07

@@ -1,0 +1,66 @@
+﻿Build started 5/1/2015 8:58:08 AM.
+     1>Project "C:\Users\Talha\Desktop\move\move\move.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Rag Run Game.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt background.cpp credits.cpp dimension.cpp mainpage.cpp main.cpp
+         background.cpp
+         credits.cpp
+         dimension.cpp
+         mainpage.cpp
+         main.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Talha\Desktop\move\Release\Rag Run Game.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Rag Run Game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Talha\Desktop\move\Release\Rag Run Game.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Talha\Desktop\move\Release\Rag Run Game.lib" /MACHINE:X86 Release\background.obj
+         Release\credits.obj
+         Release\dimension.obj
+         Release\mainpage.obj
+         Release\main.obj
+     1>background.obj : error LNK2001: unresolved external symbol __imp__al_draw_bitmap
+     1>credits.obj : error LNK2001: unresolved external symbol __imp__al_flip_display
+     1>credits.obj : error LNK2001: unresolved external symbol __imp__al_map_rgb
+     1>credits.obj : error LNK2001: unresolved external symbol __imp__al_clear_to_color
+     1>credits.obj : error LNK2001: unresolved external symbol __imp__al_register_event_source
+     1>credits.obj : error LNK2001: unresolved external symbol __imp__al_create_event_queue
+     1>credits.obj : error LNK2001: unresolved external symbol __imp__al_get_bitmap_width
+     1>credits.obj : error LNK2001: unresolved external symbol __imp__al_init_ttf_addon
+     1>credits.obj : error LNK2001: unresolved external symbol __imp__al_load_bitmap
+     1>credits.obj : error LNK2001: unresolved external symbol __imp__al_draw_text
+     1>credits.obj : error LNK2001: unresolved external symbol __imp__al_init_primitives_addon
+     1>credits.obj : error LNK2001: unresolved external symbol __imp__al_get_display_event_source
+     1>credits.obj : error LNK2001: unresolved external symbol __imp__al_init_image_addon
+     1>credits.obj : error LNK2001: unresolved external symbol __imp__al_load_font
+     1>credits.obj : error LNK2001: unresolved external symbol __imp__al_get_bitmap_height
+     1>credits.obj : error LNK2001: unresolved external symbol __imp__al_destroy_font
+     1>credits.obj : error LNK2001: unresolved external symbol __imp__al_rest
+     1>credits.obj : error LNK2001: unresolved external symbol __imp__al_init_font_addon
+     1>mainpage.obj : error LNK2001: unresolved external symbol __imp__al_draw_textf
+     1>mainpage.obj : error LNK2001: unresolved external symbol __imp__al_convert_mask_to_alpha
+     1>mainpage.obj : error LNK2001: unresolved external symbol __imp__al_destroy_bitmap
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_load_sample
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_destroy_event_queue
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_wait_for_event
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_destroy_timer
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_start_timer
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_get_keyboard_event_source
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_create_display
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_create_timer
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_reserve_samples
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_install_system
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_get_timer_event_source
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_destroy_display
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_install_keyboard
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_draw_rectangle
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_init_acodec_addon
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_install_audio
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_key_down
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_destroy_sample_instance
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_is_event_queue_empty
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_draw_filled_rectangle
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_get_keyboard_state
+     1>main.obj : error LNK2001: unresolved external symbol __imp__al_destroy_sample
+     1>C:\Users\Talha\Desktop\move\Release\Rag Run Game.exe : fatal error LNK1120: 43 unresolved externals
+     1>Done Building Project "C:\Users\Talha\Desktop\move\move\move.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.48
